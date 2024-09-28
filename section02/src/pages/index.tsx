@@ -17,7 +17,7 @@ export const getStaticProps = async () => {
       allBooks,
       recoBooks,
     },
-    revalidate: 5, // 초
+    // revalidate: 5, // 초
   };
 };
 
